@@ -21,7 +21,7 @@ bevy = { version = "0.15", default-features = false, features = [
 bevy_mod_xr.path = "crates/bevy_xr"
 bevy_mod_openxr.path = "crates/bevy_openxr"
 bevy_xr_utils.path = "crates/bevy_xr_utils"
-openxr = "0.19.0"
+openxr = { path = "../openxrs/openxr" }
 thiserror = "2.0.3"
 wgpu = "23"
 wgpu-hal = "23"

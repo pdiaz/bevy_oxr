@@ -197,8 +197,7 @@ unsafe impl GraphicsExt for openxr::Vulkan {
                                 "Couldn't parse Android's ",
                                 "ro.build.version.sdk system property ({}): {}",
                             ),
-                            val,
-                            err,
+                            val, err,
                         );
                         0
                     }
